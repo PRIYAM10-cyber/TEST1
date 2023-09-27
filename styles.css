@@ -1,11 +1,10 @@
-div#outerbox{
+.container{
     border: 5px solid black;
+    padding: 20px;
     width: 33%;
     margin: 100px auto;
 }
 
-div#innerbox{
-    margin: 40px;
-    padding: 0px;
-    background-color: yellow;
+.box{
+    background-color: #e4eb1e;
 }
