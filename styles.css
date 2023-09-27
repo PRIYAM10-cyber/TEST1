@@ -1,20 +1,41 @@
 .container{
-    margin: 100px auto;
+    margin: 120px auto;
 }
-table{
-    width: 80vw;
-    margin: auto;
-    border-collapse: collapse;
-}
-th{
-    background-color: rgb(70, 183, 70);
+#mySidenav a{
+    position: absolute;
+    left: -80px;
+    transition: 0.3px;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
     color: white;
-    text-align: left;
+    border-radius: 0 5px 5px 0;
 }
-tr.c-row{
-    background-color: rgb(216, 216, 216);
-    border-color:rgb(216, 216, 216); 
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
 }
-th, td{
-    padding: 10px;
+
+#about {
+    top: 80px;
+    background-color: #04AA6D;
+}
+#blog {
+    top: 140px;
+    background-color: #2196F3; /* Blue */
+}
+  
+#projects {
+    top: 200px;
+    background-color: #f44336; /* Red */
+}
+
+#contact {
+    top: 260px;
+    background-color: #555 /* Light Black */
+}
+
+p{
+    padding: 0 0 0 60px;
 }
